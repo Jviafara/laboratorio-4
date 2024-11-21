@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:nombre);
+    background-color: #f4f4f9;
+    color: #333;
+    padding:0 10px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #6e6e6e;
+    color: #fff;
+    border-radius: 16px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+
+header img {
+    border-radius: 10px;
+    display: none;
+}
+
+header div {
+    display: flex;
+    padding: 0 15px;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+    /* border-radius: 8px; */
+}
+
+header p {
+    width: 45%;
+    text-align: justify;
+}
+
+main {
+    padding: 0 10px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container section {
+    width: 33%;
+}
+
+section {
+    margin: 20px;
+    padding: 10px 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px;
+}
+
+section h2 {
+}
+
+table {
+    max-width: 100%;
+    padding: 5px;
+}
+
+th {
+    background-color: #ff3838;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f79e9e;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+form fieldset {
+    width: 90%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* form button {
+    margin: 0 15px;
+    padding: 10px 15px;
+    background-color: #00d5ff;
+    border-radius: 10px;
+} */
+button {
+    padding: 10px 15px;
+    background-color: #00d5ff;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0078a1;
+    color: #fff;
+}
+
+.input-section {
+    width: 75%;
+    text-align: left;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.input-section label {
+    width: 25%;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 2px 5px;
+}
+
+.input-section textarea {
+    width: 100%;
+    padding: 2px 5px;
+}
+
+.input-section div {
+    display: flex;
+}

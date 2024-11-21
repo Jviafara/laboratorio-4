@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Laboratorio #4</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>Jesús Viafara</h1>
+            <h3>Ingeniero Electrónico</h3>
+            <button id="img-button" onclick="mostrarFoto()">Show Image</button>
+            <div>
+                <img id="photo" src="foto.png" alt="Foto" />
+                <p>
+                    I am an enthusiastic and dedicated full stack developer more
+                    than a year of experience and passion for creating
+                    innovative and user-friendly web applications. With a strong
+                    foundation in both front-end and back-end development
+                    technologies, I bring creativity, problem-solving skills,
+                    and a commitment to continuous learning to every project. I
+                    am excited to contribute my technical expertise and
+                    collaborate with cross-functional teams to deliver
+                    high-quality web solutions that meet both user and business
+                    needs. I'm ready to contribute my technical skills,
+                    dedication, and passion for web development to create
+                    impactful and user-centric web solutions.
+                </p>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <section>
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Ver y practicar deportes</li>
+                        <li>Video juegos</li>
+                        <li>Resolver Puzzles</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Tareas</h2>
+                    <ol>
+                        <li>Realizar los laboratorios pendientes</li>
+                        <li>Lavar la ropa sucia</li>
+                        <li>Acondicionar el area de estudio</li>
+                    </ol>
+                </section>
+            </div>
+            <section>
+                <h2>Calendario de la semana</h2>
+                <table
+                    border="1"
+                    cellpadding="5"
+                    cellspacing="5"
+                    style="text-align: center">
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miercoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sabados</th>
+                            <th>Domingo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8:00 - 11:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Lavar la ropa</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>13:30 - 17:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Acondicionar area de estudio.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>18:00 - 22:30</td>
+                            <td>Realizar Laboratorios</td>
+                            <td>Realizar Laboratorios</td>
+                            <td>Realizar Laboratorios</td>
+                            <td>Realizar Laboratorios</td>
+                            <td>Realizar Laboratorios</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <form id="contactForm">
+                    <fieldset>
+                        <legend>Contacto</legend>
+                        <div class="input-section">
+                            <label for="name">Nombre</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder=" Ingresa tu nombre."
+                                required />
+                        </div>
+                        <div class="input-section">
+                            <label for="email">E-Mail</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder=" Ingresa tu email."
+                                required />
+                        </div>
+                        <div class="input-section">
+                            <label for="msg">Mensaje</label>
+                            <textarea
+                                id="msg"
+                                name="msg"
+                                rows="8"
+                                required></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
