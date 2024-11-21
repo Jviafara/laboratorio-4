@@ -3,8 +3,7 @@ body {
     line-height:nombre);
     background-color: #f4f4f9;
     color: #333;
-    padding:0 10px;
-    margin: 0 auto;
+    /* padding:0 10px; */
 }
 
 header {
@@ -146,4 +145,24 @@ button:hover {
 
 .input-section div {
     display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center
+}
+
+footer a {
+   text-decoration: none;
+   color: #000;
+   font-weight: 600;
+}
+footer span {
+   text-decoration: none;
+   color: #000;
+   font-weight: 600;
 }
